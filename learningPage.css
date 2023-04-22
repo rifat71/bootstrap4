@@ -6,3 +6,8 @@
 .navbar-toggler:active {
   box-shadow: none;
 }
+
+.center-custom{
+  margin-right: auto;
+  margin-left: auto;
+}
