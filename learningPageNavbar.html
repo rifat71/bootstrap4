@@ -57,9 +57,38 @@
         <main class="py-5 px-5">
 
             <!-- Add section starts -->
-            <div class="add-section" style="margin-top: 100px;">
-                <div class="title text-center mb-3">
-                    <h3 class="fw-bolder">Add Section</h3>
+            <div class="add-section bg-primary p-5" style="margin-top: 100px;">
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://res.cloudinary.com/damien1/w_800,c_scale,f_auto,q_auto,dpr_3.0/blog/selenium_logo.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://automated-360.com/wp-content/uploads/2022/08/Playwright-Tutorial.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://i0.wp.com/blog.knoldus.com/wp-content/uploads/2019/11/Appium.png?fit=698%2C400&ssl=1" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
             <!-- Add section ends -->
@@ -303,7 +332,7 @@
                 </div>
             </div>
             <!-- Review section ends -->
-         
+
             <!-- Package section starts -->
             <div class="pakage-section mt-5">
                 <div class="title text-center my-4">
@@ -315,34 +344,34 @@
                       My Packages
                     </caption> -->
                     <thead style="background-color: darkseagreen">
-                      <tr>
-                        <th scope="col">Course Name</th>
-                        <th scope="col">Details</th>
-                        <th scope="col">Duration</th>
-                        <th scope="col">Cost</th>
-                      </tr>
+                        <tr>
+                            <th scope="col">Course Name</th>
+                            <th scope="col">Details</th>
+                            <th scope="col">Duration</th>
+                            <th scope="col">Cost</th>
+                        </tr>
                     </thead>
                     <tbody>
-                      <tr>
-                        <th scope="row">Selenium with Javascript</th>
-                        <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid, voluptatum?</td>
-                        <td>3 Months</td>
-                        <td>8000 BDT</td>
-                      </tr>
-                      <tr class="table-secondary">
-                        <th scope="row">Playwright with Javascript</th>
-                        <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid, voluptatum?</td>
-                        <td>4 Months</td>
-                        <td>10000 BDT</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">Mobile Automation with Appium</th>
-                        <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid, voluptatum?</td>
-                        <td>5 Months</td>
-                        <td>12000 BDT</td>
-                      </tr>
+                        <tr>
+                            <th scope="row">Selenium with Javascript</th>
+                            <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid, voluptatum?</td>
+                            <td>3 Months</td>
+                            <td>8000 BDT</td>
+                        </tr>
+                        <tr class="table-secondary">
+                            <th scope="row">Playwright with Javascript</th>
+                            <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid, voluptatum?</td>
+                            <td>4 Months</td>
+                            <td>10000 BDT</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Mobile Automation with Appium</th>
+                            <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid, voluptatum?</td>
+                            <td>5 Months</td>
+                            <td>12000 BDT</td>
+                        </tr>
                     </tbody>
-                  </table>
+                </table>
             </div>
             <!-- Package section ends -->
 
@@ -359,8 +388,12 @@
                             alt="Profile Image">
                     </div>
                     <div class="flex-grow-1 ms-3">
-                        <h5>Md. Amanullah Galib<small class="text-muted"><i> SDET, Field Nation, 2021-Present</i></small></h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore tempora, minima ea incidunt dolorum cupiditate ipsam eum mollitia aut reiciendis minus assumenda unde, autem iste, magni nemo beatae maxime ab obcaecati! Cumque excepturi sit facilis optio ipsum rerum, deleniti vitae ad sint sed, ipsa inventore assumenda libero voluptates temporibus explicabo.</p>
+                        <h5>Md. Amanullah Galib<small class="text-muted"><i> SDET, Field Nation,
+                                    2021-Present</i></small></h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore tempora, minima ea incidunt
+                            dolorum cupiditate ipsam eum mollitia aut reiciendis minus assumenda unde, autem iste, magni
+                            nemo beatae maxime ab obcaecati! Cumque excepturi sit facilis optio ipsum rerum, deleniti
+                            vitae ad sint sed, ipsa inventore assumenda libero voluptates temporibus explicabo.</p>
                     </div>
                 </div>
             </div>
